@@ -1,4 +1,4 @@
-> [!注意]
+> [!note]
 > 以下内容为官方readme.md文件的内容。
 > 翻译者:来自 [Open—Code—Studio](https://github.com/Open-code-Studio/)—— 的 [仓颉](https://github.com/cangcang-zh-2025)
 
@@ -23,7 +23,7 @@
   </p>
 </div>
 
-> [!注意]
+> [!NOTE]
 > **OpenCore 旧机型修补器 3.0.0 – 现已支持 macOS Tahoe 26！**
 >
 > 期待已久的 OpenCore 旧机型修补器 3.0.0 版本现已发布，为社区带来了对 **macOS Tahoe 26 的初步支持**！
@@ -33,7 +33,7 @@
 > - 只有来自 **[lzhoang2801/OpenCore-Legacy-Patcher](https://github.com/lzhoang2801/OpenCore-Legacy-Patcher/releases/tag/3.0.0)** 仓库的 OpenCore-Patcher 3.0.0 提供对 macOS Tahoe 26 的早期补丁支持。
 > - 官方的 Dortania 版本或旧的补丁 **将无法** 在 macOS Tahoe 26 上工作。
 
-> [!警告]
+> [!WARNING]
 > 虽然 OpCore Simplify 显著减少了设置时间，但 Hackintosh 的过程仍然需要：
 >
 > - 理解来自 [Dortania Guide](https://dortania.github.io/OpenCore-Install-Guide/) 的基本概念。
@@ -121,7 +121,7 @@
    - 在 Windows 上使用 **[UnPlugged](https://github.com/corpnewt/UnPlugged)** 创建 macOS 安装 USB，或按照 [此指南](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html) 在 macOS 上进行。
    - 如需排障，请参考 [OpenCore 排障指南](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html)。
 
-> [! 注]
+> [!note]
 >
 > 1.安装成功后，如果需要OpenCore Legacy Patcher，只需应用根补丁即可激活缺失的功能（如现代Broadcom Wi-Fi卡和图形加速）。
 > 2.对于 AMD 显卡，在从 OpenCore Legacy Patcher 应用根补丁后，你需要移除启动参数 '-radvesa'/'-amd_no_dgpu_accel'，这样图形加速才会正常。
